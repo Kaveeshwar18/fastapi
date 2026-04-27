@@ -1,3 +1,4 @@
+
 🚀 FastAPI Post Analyzer
 
 - [Python]   (https://img.shields.io/badge/Python-3.9+-blue.svg)
@@ -55,10 +56,4 @@ FastAPI Post Analyzer is a beginner-friendly backend project designed to demonst
 
 📂 Project Structure
 
-fastapi-basic/
-│
-├── main.py             # API route handlers
-├── model.py            # Request/response schemas
-├── service.py          # Core business logic
-├── requirements.txt.   # Project dependencies
-└── README.md
+<img width="390" height="158" alt="Screenshot 2026-04-27 at 11 52 52 AM" src="https://github.com/user-attachments/assets/58aa8e47-220b-426d-961e-04c6044bf238" />

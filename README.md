@@ -1,61 +1,64 @@
-FASTAPI Basic Project
+🚀 FastAPI Post Analyzer
 
-Description
+- [Python]   (https://img.shields.io/badge/Python-3.9+-blue.svg)
+- [FastAPI]  (https://img.shields.io/badge/FastAPI-Framework-green)
+- [Uvicorn]  (https://img.shields.io/badge/Uvicorn-ASGI%20Server-orange)
+- [License]  (https://img.shields.io/badge/License-MIT-yellow.svg)
 
-This is a simple FastAPI project created to understand how APIs work.
-It includes basic input validation, simple logic, and a clean structure.
+A clean and minimal REST API built with FastAPI to analyze and categorize text posts. This project demonstrates structured API development, input validation, and modular architecture using Python.
 
-Features
-	•	Create and analyze posts
-	•	Count number of words
-	•	Categorize posts (Short / Medium / Long)
-	•	Simple REST API
 
-Tech Stack
-	•	Python
-	•	FastAPI
-	•	Uvicorn
-	•	Pydantic
 
-How to Run
-	1.	Install required packages:
+📑 Table of Contents
 
-pip install -r requirements.txt
+- [Description]           # description
+- [Features]              # features
+- [Tech Stack]            # tech-stack
+- [Project Structure]     # project-structure
+- [Installation]          # installation
+- [Usage]                 # usage
+- [API Endpoints]         # api-endpoints
+- [Requirements]          # requirements
+- [Configuration]         # configuration
+- [Contributing]          # contributing
+- [License]               # license
+- [Contact]               # contact
 
-	2.	Run the server:
 
-uvicorn main:app --reload
 
-	3.	Open in browser:
 
-	•	API: http://127.0.0.1:8000
-	•	Docs: http://127.0.0.1:8000/docs
+📖 Description
 
-API Endpoints
-	•	GET /
-Returns API status
-	•	POST /analyze-post
-Input example:
+FastAPI Post Analyzer is a beginner-friendly backend project designed to demonstrate how modern APIs are built and structured. It provides functionality to analyze text posts, calculate word counts, and classify content length, while maintaining a clean and scalable codebase.
 
-{
-  "title": "Example",
-  "content": "This is a sample post"
-}
 
-	•	GET /posts
-Returns all posts
 
-Project Structure
+✨ Features
+
+- RESTful API design
+- Input validation using Pydantic
+- Word count analysis
+- Automatic post categorization (Short / Medium / Long)
+- Modular and maintainable architecture
+- Interactive API documentation (Swagger UI)
+
+
+
+🛠 Tech Stack
+
+- Python
+- FastAPI
+- Uvicorn
+- Pydantic
+
+
+
+📂 Project Structure
 
 fastapi-basic/
 │
-├── main.py
-├── model.py
-├── service.py
-├── requirements.txt
+├── main.py             # API route handlers
+├── model.py            # Request/response schemas
+├── service.py          # Core business logic
+├── requirements.txt.   # Project dependencies
 └── README.md
-
-Explanation
-	•	main.py → Handles API routes
-	•	model.py → Defines input structure
-	•	service.py → Contains logic

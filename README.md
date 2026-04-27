@@ -1,53 +1,52 @@
-:::writing{variant=“standard” id=“48291”}
+FASTAPI Basic Project
 
-FastAPI Basic Project
+Description
 
-📌 Description
+This is a simple FastAPI project created to understand how APIs work.
+It includes basic input validation, simple logic, and a clean structure.
 
-This is a simple FastAPI project that demonstrates basic API development with input validation and logic processing.
-
-🚀 Features
+Features
 	•	Create and analyze posts
-	•	Word count calculation
-	•	Categorize content (Short / Medium / Long)
-	•	REST API structure
+	•	Count number of words
+	•	Categorize posts (Short / Medium / Long)
+	•	Simple REST API
 
-🛠️ Tech Stack
+Tech Stack
 	•	Python
 	•	FastAPI
 	•	Uvicorn
 	•	Pydantic
-  
-▶️ How to Run
 
-1. Install dependencies
+How to Run
+	1.	Install required packages:
+
 pip install -r requirements.txt
 
-2. Run the server
+	2.	Run the server:
+
 uvicorn main:app --reload
 
-3. Open in browser
+	3.	Open in browser:
+
 	•	API: http://127.0.0.1:8000
 	•	Docs: http://127.0.0.1:8000/docs
 
-📡 API Endpoints
-
-Home
+API Endpoints
 	•	GET /
-	•	Returns API status
-
-Analyze Post
+Returns API status
 	•	POST /analyze-post
-	•	Input:
-  {
+Input example:
+
+{
   "title": "Example",
   "content": "This is a sample post"
 }
 
-Get Posts
 	•	GET /posts
-	•	Returns all posts
-  
+Returns all posts
+
+Project Structure
+
 fastapi-basic/
 │
 ├── main.py
@@ -55,12 +54,8 @@ fastapi-basic/
 ├── service.py
 ├── requirements.txt
 └── README.md
-📖 Explanation
+
+Explanation
 	•	main.py → Handles API routes
-	•	model.py → Validates input data
-	•	service.py → Contains logic and processing
-
-👨‍💻 Author
-
-Kaveeshwar
-:::
+	•	model.py → Defines input structure
+	•	service.py → Contains logic

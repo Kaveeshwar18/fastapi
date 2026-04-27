@@ -58,11 +58,3 @@ FastAPI Post Analyzer is a beginner-friendly backend project designed to demonst
 
 <img width="390" height="158" alt="Screenshot 2026-04-27 at 11 52 52 AM" src="https://github.com/user-attachments/assets/58aa8e47-220b-426d-961e-04c6044bf238" />
 
-
-
-# 🔗 Useful Links
-
-- FastAPI Official Docs: FastAPI Documentation￼
-- Uvicorn Docs: Uvicorn Documentation￼
-- Pydantic Docs: Pydantic Documentation￼
-- Python Docs: Python Official Docs￼
